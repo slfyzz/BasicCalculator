@@ -3,7 +3,7 @@ package test.calculator;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 //import eg.edu.alexu.csd.oop.calculator.Calculator;
-import eg.edu.alexu.csd.oop.calculator.cs63.Calculator;
+import eg.edu.alexu.csd.oop.calculator.cs61.Calculator;
 import test.TestRunner;
 
 public class SmokeTest {

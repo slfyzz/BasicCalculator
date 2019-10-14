@@ -1,8 +1,7 @@
-package eg.edu.alexu.csd.oop.calculator.cs63;
+package eg.edu.alexu.csd.oop.calculator.cs61;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -25,7 +24,7 @@ public class Main extends Application {
         Height = 300;
         Width = 400;
         Parent root = intializeCalc();
-        primaryStage.setTitle("eg.edu.alexu.csd.oop.calculator.cs63.Calculator ");
+        primaryStage.setTitle("eg.edu.alexu.csd.oop.calculator.cs61.Calculator ");
         primaryStage.setScene(new Scene(root, Height, Width));
      //   primaryStage.setResizable(false);
         primaryStage.show();
