@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/calculator/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/calculator/IntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/calculator/SanityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/calculator/SanityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/calculator/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/calculator/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/eg/edu/alexu/csd/oop/calculator/cs63/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/eg/edu/alexu/csd/oop/calculator/cs63/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/eg/edu/alexu/csd/oop/calculator/cs63/ICalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/eg/edu/alexu/csd/oop/calculator/cs63/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/eg/edu/alexu/csd/oop/calculator/cs63/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/test/calculator/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/test/calculator/IntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/test/calculator/SanityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/test/calculator/SanityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/test/calculator/SmokeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/test/calculator/SmokeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history.txt" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,10 +77,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+            <state relative-caret-position="56">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,26 +91,50 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
-              <caret line="153" column="9" lean-forward="true" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5492#5493#0" expanded="true" />
-                <element signature="e#5520#5521#0" expanded="true" />
-                <element signature="e#5571#5572#0" expanded="true" />
-                <element signature="e#5597#5598#0" expanded="true" />
-                <element signature="e#5648#5649#0" expanded="true" />
-                <element signature="e#5676#5677#0" expanded="true" />
+                <element signature="e#5856#5857#0" expanded="true" />
+                <element signature="e#5933#5934#0" expanded="true" />
+                <element signature="e#6012#6013#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-info.java">
+        <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/calculator/SanityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/calculator/SmokeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,56 +149,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/calculator/SanityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="151" column="30" lean-forward="true" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/calculator/SmokeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/calculator/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -173,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="2550">
               <caret line="203" selection-start-line="203" selection-end-line="203" />
             </state>
           </provider>
@@ -209,6 +199,9 @@
         <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/ICalculator.java" />
         <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs63/Main.java" />
         <option value="$PROJECT_DIR$/src/test/calculator/SmokeTest.java" />
+        <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java" />
+        <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Gui.java" />
+        <option value="$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java" />
       </list>
     </option>
   </component>
@@ -228,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,7 +261,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -284,7 +277,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571011022024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571234679323" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -312,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTest">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -327,6 +320,20 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eg.edu.alexu.csd.oop.calculator.cs61.Main" />
+      <module name="Calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eg.edu.alexu.csd.oop.calculator.cs61.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.testCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -377,7 +384,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.calculator" />
       <option name="MAIN_CLASS_NAME" value="test.calculator.IntegrationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testCreation" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -424,7 +432,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTest.testHistoryAndCurrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTest.testOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
         <pattern>
@@ -434,7 +442,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.calculator" />
       <option name="MAIN_CLASS_NAME" value="test.calculator.SmokeTest" />
-      <option name="METHOD_NAME" value="testHistoryAndCurrent" />
+      <option name="METHOD_NAME" value="testOperation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -477,18 +485,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.SmokeTest" />
-      <item itemvalue="JUnit.SmokeTest.testHistoryAndCurrent" />
-      <item itemvalue="JUnit.IntegrationTest" />
       <item itemvalue="JUnit.SanityTest" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.IntegrationTest.testCreation" />
+      <item itemvalue="JUnit.SmokeTest.testOperation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.SmokeTest.testOperation" />
         <item itemvalue="JUnit.SmokeTest" />
         <item itemvalue="JUnit.SanityTest" />
-        <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.SmokeTest.testHistoryAndCurrent" />
+        <item itemvalue="JUnit.IntegrationTest.testCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -507,24 +515,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SmokeTest - 2019.10.14 at 01h 35m 45s.xml">
-      <configuration name="SmokeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTest - 2019.10.14 at 01h 36m 14s.xml">
-      <configuration name="IntegrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmokeTest - 2019.10.14 at 01h 39m 44s.xml">
-      <configuration name="SmokeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmokeTest - 2019.10.14 at 01h 40m 47s.xml">
-      <configuration name="SmokeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmokeTest - 2019.10.14 at 01h 41m 21s.xml">
-      <configuration name="SmokeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTest - 2019.10.14 at 01h 41m 34s.xml">
-      <configuration name="IntegrationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SanityTest - 2019.10.14 at 01h 41m 51s.xml">
       <configuration name="SanityTest" configurationId="JUnit" />
     </history-entry>
@@ -537,6 +527,24 @@
     <history-entry file="SmokeTest - 2019.10.14 at 01h 56m 58s.xml">
       <configuration name="SmokeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SmokeTest - 2019.10.16 at 13h 17m 55s.xml">
+      <configuration name="SmokeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest_testCreation - 2019.10.16 at 15h 13m 51s.xml">
+      <configuration name="IntegrationTest.testCreation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SanityTest - 2019.10.16 at 15h 14m 22s.xml">
+      <configuration name="SanityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTest - 2019.10.16 at 15h 14m 42s.xml">
+      <configuration name="SmokeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTest_testOperation - 2019.10.16 at 15h 15m 17s.xml">
+      <configuration name="SmokeTest.testOperation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmokeTest_testOperation - 2019.10.16 at 15h 15m 42s.xml">
+      <configuration name="SmokeTest.testOperation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
@@ -545,7 +553,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2655068" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -554,7 +562,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,7 +632,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java</url>
-          <line>172</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -712,28 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -751,6 +741,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -760,7 +765,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="2550">
           <caret line="203" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
@@ -774,10 +779,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
+        <state relative-caret-position="56">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/calculator/IntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -795,7 +802,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/calculator/SanityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2567">
-          <caret line="151" column="30" lean-forward="true" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,8 +811,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/calculator/SmokeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ReflectionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -814,16 +845,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg/edu/alexu/csd/oop/calculator/cs61/ICalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="153" column="9" lean-forward="true" selection-start-line="153" selection-start-column="9" selection-end-line="153" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5492#5493#0" expanded="true" />
-            <element signature="e#5520#5521#0" expanded="true" />
-            <element signature="e#5571#5572#0" expanded="true" />
-            <element signature="e#5597#5598#0" expanded="true" />
-            <element signature="e#5648#5649#0" expanded="true" />
-            <element signature="e#5676#5677#0" expanded="true" />
+            <element signature="e#5856#5857#0" expanded="true" />
+            <element signature="e#5933#5934#0" expanded="true" />
+            <element signature="e#6012#6013#0" expanded="true" />
           </folding>
         </state>
       </provider>

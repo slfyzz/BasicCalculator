@@ -3,6 +3,6 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="eg.edu.alexu.csd.oop.calculator.cs63.Controller"
+<GridPane fx:controller="eg.edu.alexu.csd.oop.calculator.cs61.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
 </GridPane>

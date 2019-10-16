@@ -13,7 +13,7 @@ public class ICalculator implements Calculator{
     private List<String> history;
     private int currentExp;
     private int MAXSIZE;
-    private String file = "C:\\Users\\3arrows\\IdeaProjects\\Calculator\\src\\history.txt";
+    private String file = "history.txt";
 
     ICalculator()
     {
@@ -81,7 +81,7 @@ public class ICalculator implements Calculator{
         String pattern = "([\\-]?[0-9]+[.]?[0-9]*)[\\s]?([\\-|\\+|\\*|\\/])[\\s]*([\\-]?[0-9]+[.]?[0-9]*)";
         Pattern p = Pattern.compile(pattern);
         Matcher m = p.matcher(current());
-        if (m.find())
+        if (m.find() && (m.group(1).length() + m.group(2).length() + m.group(3).length() == current().length()))
         {
             System.out.println(current());
             System.out.println(m.group(0));
@@ -104,13 +104,22 @@ public class ICalculator implements Calculator{
             }
             else if (m.group(2).equals("/"))
             {
-                return String.valueOf(this.division(Double.valueOf(m.group(1)), Double.valueOf(m.group(3))));
+                try {
+                return String.valueOf(this.division(Double.valueOf(m.group(1)), Double.valueOf(m.group(3))));}
+                catch (Exception e)
+                {
+                    history.remove(currentExp);
+                    currentExp--;
+                    throw new NumberFormatException("DIVISON BY ZERO !!!");
+                }
 
             }
         }
         else
         {
-            throw new NumberFormatException("Wrong Format");
+            history.remove(currentExp);
+            currentExp--;
+            throw new NullPointerException("Wrong Format");
         }
         return null;
     }
