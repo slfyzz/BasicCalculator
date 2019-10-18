@@ -22,46 +22,6 @@ public class ICalculator implements Calculator{
         this.currentExp = -1;
     }
 
-  /*  public double evaluateTheExpression(String exp) throws NumberFormatException{
-        //String pattern = "\\b((\\-?[0-9]+)(\\.[0-9]+)([\\-|\\+|\\*|\\/])(\\-?[0-9]+)(\\.[0-9]+))\\b";
-        String pattern = "([0-9]+[.]?[0-9]*)([\\-|\\+|\\*|\\/])([\\-]?[0-9]+[.]?[0-9]*)";
-        Pattern p = Pattern.compile(pattern);
-        Matcher m = p.matcher(exp);
-        if (m.find())
-        {
-            System.out.println(exp);
-            System.out.println(m.group(0));
-            System.out.println(m.group(1));
-            System.out.println(m.group(2));
-            System.out.println(m.group(3));
-
-            if (m.group(2).equals("+"))
-            {
-                return this.add(Double.valueOf(m.group(1)), Double.valueOf(m.group(3)));
-            }
-            else if (m.group(2).equals("-"))
-            {
-                return this.subtract(Double.valueOf(m.group(1)), Double.valueOf(m.group(3)));
-            }
-            else if (m.group(2).equals("*"))
-            {
-                return this.multiply(Double.valueOf(m.group(1)), Double.valueOf(m.group(3)));
-
-            }
-            else if (m.group(2).equals("/"))
-            {
-                return this.division(Double.valueOf(m.group(1)), Double.valueOf(m.group(3)));
-
-            }
-        }
-        else
-        {
-            throw new NumberFormatException("Wrong Format");
-        }
-        return 0;
-
-    }*/
-
     @Override
     public void input(String s) {
 
@@ -83,12 +43,6 @@ public class ICalculator implements Calculator{
         Matcher m = p.matcher(current());
         if (m.find() && (m.group(1).length() + m.group(2).length() + m.group(3).length() == current().length()))
         {
-            System.out.println(current());
-            System.out.println(m.group(0));
-            System.out.println(m.group(1));
-            System.out.println(m.group(2));
-            System.out.println(m.group(3));
-
             if (m.group(2).equals("+"))
             {
                 return String.valueOf(this.add(Double.valueOf(m.group(1)), Double.valueOf(m.group(3))));
